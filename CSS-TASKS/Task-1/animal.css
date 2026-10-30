@@ -1,0 +1,76 @@
+*{
+    background-color: lightblue;
+    font-family:  sans-serif;
+}
+.btn{
+    background-color: darkgreen;
+    color: whitesmoke;
+    font-weight: bold;
+    height: 50px;
+    width: 80px;
+    border: 5px solid lightslategray;
+    margin-left: 1140px;
+    position: relative;
+    bottom: 940px; 
+    border-radius: 5px;
+}
+.container{
+    margin-left: 250px;
+}
+.navbar{
+    background-color: darkseagreen;
+    width: 520px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar a{
+    background-color: darkseagreen;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 6px;
+    height: 20px;
+}
+img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 20px;
+}
+p{
+   margin-left: 220px;
+   position: relative;
+   bottom: 150px;    
+}
+.wiki-pedia{
+    position: relative;
+    bottom: 160px;
+    margin-left: 220px;
+}
+.reason{
+    position: relative;
+    bottom: 120px;
+}
+.qualities{
+    position: relative;
+    bottom: 120px;
+}
+.wishes{
+    position: relative;
+    bottom: 120px;
+}
+.mooose-video{
+    position: relative;
+    bottom: 120px;
+}
+.video{
+    position: relative;
+    bottom: 120px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+}

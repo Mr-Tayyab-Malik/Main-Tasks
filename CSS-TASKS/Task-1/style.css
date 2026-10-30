@@ -1,0 +1,118 @@
+*{
+    background-color: #C9C4B9;
+}
+img{
+    border-radius: 1200px;
+    width: 150px;
+    height: 150px;
+    margin-left: 480px;
+    border: 2px solid red;
+}
+h1{
+    margin-left: 380px;
+    background-color: #D5D0C4;
+    width: 370px;
+    border-radius: 8px;
+}
+.h-r{
+    margin-left: 210px;
+    width: 700px;
+    height: 2px;
+    border: none;
+    background-color:  #8DB7BE;;
+}
+b{
+    background-color: #D5D0C4;
+    border-radius: 6px;
+    color: #B96D50;
+    margin-left: 220px;
+    width: 130px;
+}
+.Catering{
+    position: relative;
+    top: -47px;
+}
+.Restaurant-1st-L{
+ background-color: #D5D0C4;
+ margin-left: 220px;
+ border-radius: 8px;
+ width: 640px;
+ position: relative;
+ top: -16px;   
+}
+.Restaurant-2nd-L{
+ background-color: #D5D0C4;
+ margin-left: 220px;
+ border-radius: 8px;
+ width: 300px;
+ position: relative;
+ top: -32px;
+}
+.Catering-1st-L{
+ background-color: #D5D0C4;
+ margin-left: 220px;
+ border-radius: 8px;
+ width: 680px;
+ position: relative;
+ top: -63px;
+}
+.Catering-2nd-L{
+ background-color: #D5D0C4;
+ margin-left: 220px;
+ border-radius: 8px;
+ width: 240px;
+ position: relative;
+ top: -80px;
+}
+i{
+    background-color: #D5D0C4;
+}
+.Location-and-Hours{
+    position: relative;
+    top: -95px;
+}
+.Location-and-Hours-1st{
+  background-color: #D5D0C4;
+  margin-left: 220px;
+  border-radius: 8px;
+  width: 300px;
+  position: relative;
+  top: -110px;
+  width: 167px;
+}
+.Location-and-Hours-2nd{
+  background-color: #D5D0C4;
+  margin-left: 220px;
+  border-radius: 8px;
+  width: 300px;
+  position: relative;
+  top: -126px;
+  width: 210px;
+}
+.Location-and-Hours-3rd{
+   background-color: #D5D0C4;
+   margin-left: 220px;
+   border-radius: 8px;
+   width: 300px;
+   position: relative;
+   top: -142px;
+   width: 235px;
+}
+.btn{
+    margin-left: 400px;
+    width: 220px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    position: relative;
+    bottom: 100px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+    background: none;
+}
