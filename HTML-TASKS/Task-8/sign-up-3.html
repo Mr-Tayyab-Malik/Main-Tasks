@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up-3</title>
+    <style>
+      video{
+       position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+    }
+    .frm{
+        border: 2px solid white;
+        border-radius: 8px;
+        width: 350px;
+        height: 450px;
+        margin-left: 450px;
+        position: relative;
+        top: 100px;
+    }  
+    .sign-up{
+     color: white;
+     font-size: 40px;
+     margin-left: 100px;
+     position: relative;
+     top: -20px;
+    }  
+    .frm h3{
+       color: white;
+     margin-left: 100px;
+     position: relative;
+     top: -30px;
+     font-weight: lighter;
+     font-style: italic;
+    }
+    .btn{
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+        font-size: 15px;
+        border: none;
+        width: 100px;
+        height: 30px;
+        margin-left: 120px;
+        border-radius: 3px;
+        position: relative;
+        top: -10px;
+    }
+    .Work-Exp{
+        margin-left: 60px;
+        position: relative;
+        top: -20px;
+    }
+    .Work-Exp input{
+        width: 210px;
+        height: 30px;
+    }
+    .Resume{
+        color: white;
+        margin-left: 60px;
+        position: relative;
+        top: -40px;
+    }
+    #start-date{
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="https://www.pexels.com/download/video/34268861/" type="video/mp4">
+    </video>
+    <form class="frm">
+        <h1 class="sign-up">Sign Up</h1>
+        <h3>Work Experience</h3>
+        <div class="Work-Exp">
+        <label for="job-title" ></label>
+        <input type="text" placeholder="Current job Title" name="job-title">
+        <br>
+        <br>
+         <label for="exp"></label>
+        <input type="number" placeholder="Years of Experience" name="exp">
+        <br>
+        <br>
+        <label for="start-date" id="start-date">Employment Start Date</label>
+        <input type="month"  name="start-date">
+        <br>
+        <br>
+        </div>
+         <br>
+        <div class="Resume">
+        <label for="Resume" >Upload Resume:</label>
+        <input type="file" name="Resume">
+        </div>
+        <div class="Work-Exp">
+        <label for="skills"></label>
+        <input type="text" name="skills"  placeholder="Select Skills" list="skills" >
+    <datalist id="skills">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="J-S">
+        <option value="C++">
+        <option value="Python">
+        <option value="Other">
+    </datalist>
+    </div>
+        <a href="./sign-up4.html"><button class="btn" type="button">Next</button></a>
+        </form>
+</body>
+</html>

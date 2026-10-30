@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up-4</title>
+    <style>
+        video{
+       position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+    }
+     .frm{
+        border: 2px solid white;
+        border-radius: 8px;
+        width: 350px;
+        height: 390px;
+        margin-left: 450px;
+        position: relative;
+        top: 100px;
+    }  
+    .sign-up{
+     color: white;
+     font-size: 40px;
+     margin-left: 110px;
+     position: relative;
+     top: 10px;
+    }  
+    .frm h3{
+       color: white;
+     margin-left: 130px;
+     position: relative;
+     top: -10px;
+     font-weight: lighter;
+     font-style: italic;
+    }
+    .recieve-noti{
+        color: white;
+        margin-left: 90px;
+        position: relative;
+        top: -10px;
+    }
+    
+    .suggestion{
+        margin-left: 60px;
+        position: relative;
+        top: 20px;
+    }
+    .suggestion input{
+        width: 210px;
+        height: 30px;
+    }
+    .btn{
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+        font-size: 15px;
+        border: none;
+        width: 100px;
+        height: 30px;
+        margin-left: 120px;
+        border-radius: 3px;
+        position: relative;
+        top: 50px;
+    }
+    #btn{
+        background-color: white;
+        color: blue;
+        font-weight: bolder;
+        border: none;
+        width: 100px;
+        height: 40px;
+        margin-left: 120px;
+        border-radius: 3px;
+        position: relative;
+        top: 50px;
+    }
+    #Forget-pass{
+        color: red;
+        text-decoration: none;
+        margin-left: 110px;
+        position: relative;
+        top: 50px;
+        font-weight: bolder;
+    }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="https://www.pexels.com/download/video/34268861/" type="video/mp4">
+    </video>
+    <form class="frm">
+        <h1 class="sign-up">Sign Up</h1>
+        <h3>Preferences</h3>
+        <div class="recieve-noti">
+        <label for="recieve-noti">Recieve Notifications</label>
+        <input type="checkbox" name="recieve-noti">
+        </div>
+        <div class="suggestion">
+        <label for="job-location"></label>
+        <input type="text" list="location's-suggestion" name="job-location" placeholder="preferred Job Locations">        
+        <datalist id="location's-suggestion">
+            <option value="preferred Job Locations">
+            <option value="Hyderabad">
+            <option value="Karachi">
+            <option value="Islamabad">
+            <option value="Punjab">
+        </datalist>
+    </div>
+        <button type="submit" class="btn">submit</button>
+        <br><br>
+        <a href="#" id="Forget-pass">Forget password ?</a>
+        <br><br>
+        <a href="./index.html"><button id="btn" type="button">Move to Login page</button></a>
+        </form>
+</body>
+</html>
