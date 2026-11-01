@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://www.ugshipping-group.com/images/pic/image/20200831/20200831112347_18154.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+hr{
+    height: 50px;
+    border: none;
+    background-color: black;
+}
+#hr-2{
+    height: 50px;
+    border: none;
+    background-color: black;
+    position: relative;
+    top: 230px;
+}
+.container{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:  'Montserrat', sans-serif ;
+}
+p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.btns{
+    word-spacing: 20px;
+}
+.btns button{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    width: 160px;
+    height: 40px;
+    font-weight: bolder;
+}
+.btn{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 8px;
+} 
+.btn a{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 90vh;
+}
+.container{
+    text-align: center;
+    margin-top: 40px;
+}
+ img{
+    width: 400px;
+    height: 300px;
+    border-radius: 6px;
+ }
+ button{
+    background-color: #596A83;
+    width: 150px;
+    height: 40px;
+    color: #eee;
+    border: none;
+    border-radius: 4px;
+ }
+ h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #34495E;
+ }
+ p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #777777;
+    font-size: 15px;
+ }
+ .ocean{
+   margin-right: 900px;
+   border-radius: 8px;
+   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+   width: 400px;
+   border-radius: 6px;
+ }
+ .air{
+    margin-left: 410px;
+    text-align: center;
+    position: relative;
+    bottom: 480px;
+    width: 400px;
+   border-radius: 6px;
+   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+ .street{
+   margin-left: 820px;
+   position: relative;
+   bottom: 960px;
+   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+   width: 400px;
+   border-radius: 6px;
+ }
+ hr{
+    height: 50px;
+    border: none;
+    background-color: black;
+}
+#hr-2{
+    height: 50px;
+    border: none;
+    background-color: black;
+    position: relative;
+}
