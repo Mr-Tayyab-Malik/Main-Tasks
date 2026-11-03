@@ -18,7 +18,7 @@ hr{
     border: none;
     background-color: black;
     position: relative;
-    top: 230px;
+    top: 280px;
 }
 .container{
     text-align: center;
@@ -46,20 +46,4 @@ p{
     width: 160px;
     height: 40px;
     font-weight: bolder;
-}
-.btn{
-    position: relative;
-    top: 20px;
-    width: 200px;
-    height: 50px;
-    background-color: #eee;
-    border-radius: 8px;
-} 
-.btn a{
-    color: darkblue;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
 }

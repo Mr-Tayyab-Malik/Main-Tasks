@@ -18,11 +18,22 @@ a{
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+summary{
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Tasks{
+    color: darkviolet;
+    margin-left: 55px;
+}
 .btn{
     margin-left: 600px;
     border: 2 px solid black;
     background-color: #eee;
     border-radius: 4px;
+    position: relative;
+    bottom: 10px;
 }
 .btn a{
     color: green;
