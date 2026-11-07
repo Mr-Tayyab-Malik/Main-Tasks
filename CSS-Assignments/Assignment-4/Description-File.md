@@ -1,12 +1,10 @@
 # Box Model Task
----
 ## What I did
----
-I made a div and changed its content width, padding and border to see how the total size changes. Then I did the same with height.
+- I made a div and changed its content width, padding and border to see how the total size changes. Then I did the same with height.
 ---
 ## Code Used
----
-div{
+```css
+div {
     width: 300px;
     height: 300px;
     border-radius: 10px;
@@ -15,6 +13,7 @@ div{
     margin-left: 200px;
     padding: 50px;
 }
+```
 ---
 ## Observation
 - Padding and border are added on top of width and height, so the box gets bigger
