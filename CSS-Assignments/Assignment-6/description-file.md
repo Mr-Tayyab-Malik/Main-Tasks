@@ -48,6 +48,7 @@ div > p {
 }
 ```
 #### Here only Para-1 will be targeted.
+---
 ## 3- Adjacent Sibling Combinator:
 - It selects the element that comes immediately after a specified element.
 - Both elements must have the same parent element.
@@ -67,6 +68,7 @@ h1 + p {
 }
 ```
 #### Here also only Para-1 will be targeted.
+---
 ## 4- General Sibling Combinator:
 - It selects all specified sibling elements that come after a particular element.
 - It selects all specified sibling elements that come after a particular element.
@@ -88,6 +90,7 @@ h1 ~ p {
 }
 ```
 #### Here Para-1,Para-2 & Para-3 will be targeted.
+---
 ## Difference B/W Adjacent & General Sibling Combinators:
 ### Adjacent Sibling Combinator(+):
 - Selects only the immediately next sibling.
