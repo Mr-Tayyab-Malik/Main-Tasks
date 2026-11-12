@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f3f5;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* MAIN LAYOUT */
+
+.layout {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 280px;
+    min-width: 280px;
+    height: 570px;
+    background-color: #666666;
+    color: white;
+    padding: 30px;
+    border-radius: 0 0 10px 0;
+    position: sticky;
+    top: 116px;
+}
+.sidebar h2 {
+    margin-bottom: 5px;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+/* CONTENT */
+.content {
+    flex: 1;
+    min-width: 0;
+    min-height: 1500px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+/* STICKY BOX */
+
+.sticky-box {
+    position: sticky;
+    top: 116px;
+    z-index: 10;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.sticky-box h2 {
+    font-size: 28px;
+}
+
+.sticky-box p {
+    font-size: 16px;
+}
+
+/* BOX 1 */
+
+.box-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: coral;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    right: 5%;
+    z-index: 2;
+}
+
+/* BOX 2 */
+
+.box-2 {
+    width: 180px;
+    height: 155px;
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 8px;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    z-index: 1;
+}
+
+.box-2 p {
+    font-size: 13px;
+}
+
+/* GALLERY */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 320px;
+}
+
+.card {
+     width: 32%;
+    height: 145px;
+    background-color: #d8d6d8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaaaaa;
+    font-size: 22px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: gray;
+    color: #eee;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+

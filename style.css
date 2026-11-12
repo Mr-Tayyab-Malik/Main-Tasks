@@ -28,12 +28,12 @@ summary{
     margin-left: 55px;
 }
 .btn{
-    margin-left: 600px;
+    float: right;
     border: 2 px solid black;
     background-color: #eee;
     border-radius: 4px;
     position: relative;
-    bottom: 10px;
+    bottom: 7px;
 }
 .btn a{
     color: green;
@@ -51,5 +51,10 @@ h1{
     color: darkred;
     margin-left: 350px;
 }
-
+hr{
+    width: 100%;
+    background-color: darkslategrey;
+    border: none;
+    height: 2px;
+}
 
